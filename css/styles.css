@@ -5,20 +5,20 @@
 body {
   background: url('../img/binary.jpg');
   background-position: cover;
-  background-size: 100%;
-  color: white;
+  background-size: 110%;
+  color: #222;
   height: 100vh;
 }
 
 .container {
-  height: 30vh;
+  height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: rgba(33, 200, 230, .8);
-  opacity: .8;
   margin-top: 200px;
+  text-align: center;
 }
 
 .card {
@@ -26,6 +26,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: blue;
+  align-items: center;
   border-radius: 7px;
+}
+
+.form-control {
+  border-color: #444720;
+  background-color: rgb(209,213,163);
 }

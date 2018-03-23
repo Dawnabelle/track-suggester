@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script src="js/jquery.js"></script>
     <script src="js/scripts.js"></script>
     <meta charset="utf-8">
@@ -11,21 +11,21 @@
 <body>
   <!-- test commit -->
   <div class="container">
-    <div class="card-survey">
-      <div class="card-body"
-        <h1>Epicodus Track Suggester</h1>
+    <h1>Epicodus Track Suggester</h1>
+    <div class="card survey">
+      <div class="card-body">
         <form class="needs-validation" id="formOne" nonvalidate>
-          <!-- question 1 CSS -->
-          <label for="css-track">Choose your favorite color:</label>
-          <select class="form-control" id="css-track">
+          <!-- question 1 name -->
 
+          <label for="name">Please enter your name:</label>
+          <input id="name" class="form-control" type="text">
           </select>
-          <!-- question 2 CSS 2-->
-          <label for="css-track2">Was that fun for you?</label>
-          <select class="form-control" id="css-track2">
-            <option value="true">Yes</option>
-            <option value="false">No</option>
+
+          <!-- question 2 age -->
+          <label for="age">Please enter your age:</label>
+          <input id="age" class="form-control" type="text">
           </select>
+
           <!-- question 3 PHP-->
           <label for="php-track">Are you keen to work for a fast paced agency that builds websites for lots of clients?</label>
           <select class="form-control" id="php-track">
