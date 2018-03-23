@@ -1,24 +1,21 @@
-#trackCSS, #trackPHP, #trackJava, .back {
+/* #trackCSS, #trackPHP, #trackJava, .back {
   display: none;
-}
+} */
 
 body {
-  background: url('../img/binary.jpg');
+  /* background: url('../img/binary.jpg'); */
   background-position: cover;
   background-size: 110%;
   color: #222;
-  height: 100vh;
 }
 
 .container {
-  height: 50vh;
+  /* height: 50vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: rgba(33, 200, 230, .8);
-  margin-top: 200px;
-  text-align: center;
 }
 
 .card {
@@ -33,4 +30,5 @@ body {
 .form-control {
   border-color: #444720;
   background-color: rgb(209,213,163);
+  margin-bottom: 20px;
 }
