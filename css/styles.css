@@ -1,3 +1,11 @@
 #trackCSS, #trackPHP, #trackJava, .back {
   display: none;
 }
+
+body {
+  background: url('../img/binary.jpg');
+  background-position: cover;
+  background-size: 100%;
+  color: white;
+  height: 100vh;
+}
