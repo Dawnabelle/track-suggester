@@ -1,0 +1,137 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Explore
+ @Dawnabelle
+Sign out
+0
+0 0 Dawnabelle/rick-morty-quiz
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+rick-morty-quiz/css/
+bootstrap.css
+  or cancel
+
+
+1
+/*!
+2
+ * Bootstrap v4.0.0 (https://getbootstrap.com)
+3
+ * Copyright 2011-2018 The Bootstrap Authors
+4
+ * Copyright 2011-2018 Twitter, Inc.
+5
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+6
+ */
+7
+:root {
+8
+  --blue: #007bff;
+9
+  --indigo: #6610f2;
+10
+  --purple: #6f42c1;
+11
+  --pink: #e83e8c;
+12
+  --red: #dc3545;
+13
+  --orange: #fd7e14;
+14
+  --yellow: #ffc107;
+15
+  --green: #28a745;
+16
+  --teal: #20c997;
+17
+  --cyan: #17a2b8;
+18
+  --white: #fff;
+19
+  --gray: #6c757d;
+20
+  --gray-dark: #343a40;
+21
+  --primary: #007bff;
+22
+  --secondary: #6c757d;
+23
+  --success: #28a745;
+24
+  --info: #17a2b8;
+25
+  --warning: #ffc107;
+26
+  --danger: #dc3545;
+27
+  --light: #f8f9fa;
+28
+  --dark: #343a40;
+29
+  --breakpoint-xs: 0;
+30
+  --breakpoint-sm: 576px;
+31
+  --breakpoint-md: 768px;
+32
+  --breakpoint-lg: 992px;
+33
+  --breakpoint-xl: 1200px;
+34
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+35
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+36
+}
+37
+​
+38
+*,
+39
+*::before,
+40
+*::after {
+41
+  box-sizing: border-box;
+42
+}
+43
+​
+44
+html {
+45
+  font-family: sans-serif;
+46
+  line-height: 1.15;
+47
+  -webkit-text-size-adjust: 100%;
+48
+  -ms-text-size-adjust: 100%;
+49
+  -ms-overflow-style: scrollbar;
+@Dawnabelle
+Commit changes
+
+Update bootstrap.css
+
+Add an optional extended description…
+  Commit directly to the master branch.
+  Create a new branch for this commit and start a pull request. Learn more about pull requests.
+
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
+Press h to open a hovercard with more details.
