@@ -32,3 +32,11 @@ body {
   background-color: rgb(209,213,163);
   margin-bottom: 20px;
 }
+
+.survey-result {
+  display: none;
+}
+
+.name, .campus {
+  color: red;
+}

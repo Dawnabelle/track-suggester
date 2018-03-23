@@ -12,37 +12,34 @@
   <!-- test commit -->
   <div class="container">
     <h1>Epicodus Track Suggester</h1>
-    <div class="card survey">
+    <div class="card-survey">
       <div class="card-body">
         <form class="needs-validation" id="formOne" nonvalidate>
           <!-- question 1 name -->
 
           <label for="name">Please enter your name:</label>
-          <input id="name" class="form-control" type="text">
+          <input id="name" class="form-control" type="text" required>
 
-          <!-- question 2 age -->
-          <label for="age">Please enter your age:</label>
-          <input id="age" class="form-control" type="text">
+          <!-- question 2 campus -->
+          <label for="campus">Please choose your desired campus:</label>
+          <select class="form-control" id="campus">
+            <option value="Portland">Portland</option>
+            <option value="Seattle">Seattle</option>
+          </select>
 
           <!-- question 3 PHP-->
-          <label for="php-track1">Are you keen to work for a fast paced agency that builds websites for lots of clients?</label>
+          <label for="php-track1">Are you interested in working on the backend of websites?</label>
           <select class="form-control" id="php-track1">
             <option value="true">Yes</option>
             <option value="false">No</option>
           </select>
-          <!-- question 4 PHP -->
-          <label for="php-track2">Do you like the idea of building out small sites for brands, businesses, and organizations?</label>
-          <select class="form-control" id="php-track2">
-            <option value="true">Yes</option>
-            <option value="false">No</option>
-          </select>
-          <!-- question 5 java -->
+          <!-- question 4 java -->
           <label for="java-track1">Are you interested in working for an enterprise-level company, as an Android developer, or in high-performance applications?</label>
           <select class="form-control" id="java-track1">
             <option value="true">Yes</option>
             <option value="false">No</option>
           </select>
-          <!-- question 6 CSS -->
+          <!-- question 5 CSS -->
           <label for="css-track1">Do you think you could make this page look better?</label>
           <select class="form-control" id="css-track1">
             <option value="true">Yes</option>
@@ -53,28 +50,40 @@
         </form>
       </div>
     </div>
-    <!-- result -->
+
+    <!-- results -->
     <div class="result">
-      <div class="back"><img src="#" alt"#"></div>
-      <!-- result 1 -->
-      <div id="trackCSS"class="card survey-result">
+      <!-- <div class="back"><img src="#" alt"#"></div> -->
+      <!-- result php -->
+      <div id="trackPHP" class="card survey-result">
         <div class="card-body survey-card">
-          <h1>Seems like you'd enjoy the CSS Track</h1>
-          <p>CSS orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-        </div>
-      </div>
-      <!-- result 2 -->
-      <div id="trackPHP"class="card survey-result">
-        <div class="card-body survey-card">
-          <h1>Seems like you'd enjoy the PHP Track</h1>
+          <h2>Hi <span class="name"></span>! Seems like you'd enjoy the PHP Track in <span class="campus"></span>.</h2>
           <p>PHP lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
         </div>
       </div>
-      <!-- result 3 -->
-      <div id="trackJava"class="card survey-result">
+
+      <!-- result java -->
+      <div id="trackJava" class="card survey-result">
         <div class="card-body survey-card">
-          <h1>Seems like you'd enjoy the Java Track</h1>
+          <h2>Hi <span class="name"></span>! Seems like you'd enjoy the Java Track in <span class="campus"></span>.</h2>
           <p>Java orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </div>
+      </div>
+
+        <!-- result css -->
+        <div id="trackCSS" class="card survey-result">
+          <div class="card-body survey-card">
+          <h2>Hi <span class="name"></span>! Seems like you'd enjoy the CSS Track in <span class="campus"></span>.</h2>
+            <p>CSS orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+          </div>
+        </div>
+
+        <!-- result false -->
+        <div id="undecided" class="card survey-result">
+          <div class="card-body survey-card">
+          <h2>Hi <span class="name"></span>!</h2>
+            <p>Seems you are still undecided. Please only choose one <strong>YES</strong> answer to receive our reccommendation.</p>
+          </div>
         </div>
   </div>
   </div>
