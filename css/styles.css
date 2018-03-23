@@ -16,8 +16,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: blue;
+  background-color: rgba(33, 200, 230, .8);
   opacity: .8;
+  margin-top: 200px;
 }
 
 .card {
