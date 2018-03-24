@@ -1,6 +1,7 @@
 $(document).ready(function() {
-  $("#formOne").submit(function(e) {
-    e.preventDefault();
+  $("#formOne").submit(function(asshat) {
+    console.log(asshat);
+    asshat.preventDefault();
     var name = $("#name").val();
     var campus = $("#campus").val();
     var phpTrack1 = $("#php-track1").val();
@@ -18,11 +19,11 @@ $(document).ready(function() {
     $(".name").text(name);
     $(".campus").text(campus);
 
-    console.log(name);
-    console.log(campus);
-    console.log(phpTrack1);
-    console.log(javaTrack1);
-    console.log(cssTrack1);
+    // console.log(name);
+    // console.log(campus);
+    // console.log(phpTrack1);
+    // console.log(javaTrack1);
+    // console.log(cssTrack1);
 
     // determine result value
     if (phpTrack1 === "true" && cssTrack1 === "false" && javaTrack1 === "false") {
@@ -45,7 +46,7 @@ $(document).ready(function() {
       result = false;
     }
 
-    console.log(result);
+    // console.log(result);
 
     // determine which result to display
     if (result === "php") {
