@@ -5,7 +5,7 @@
 #### By _**Dawn Mott**_
 
 ## GitHub Pages Link
-[This is a link to the github repository for this page](https://github.com/Dawnabelle/wk-2-code-review)
+[This is a link to the GitHub Page for this respository](https://dawnabelle.github.io/wk-2-code-review/)
 
 ## Description
 
