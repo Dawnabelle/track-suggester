@@ -1,7 +1,7 @@
 $(document).ready(function() {
-  $("#formOne").submit(function(asshat) {
-    console.log(asshat);
-    asshat.preventDefault();
+  $("#formOne").submit(function(e) {
+    // console.log(e);
+    e.preventDefault();
     var name = $("#name").val();
     var campus = $("#campus").val();
     var phpTrack1 = $("#php-track1").val();
@@ -50,19 +50,19 @@ $(document).ready(function() {
 
     // determine which result to display
     if (result === "php") {
-      $("#trackPHP").show();
+      $("#trackPHP").fadeIn();
     }
 
     else if (result === "java") {
-      $("#trackJava").show();
+      $("#trackJava").fadeIn();
     }
 
     else if (result === "css") {
-      $("#trackCSS").show();
+      $("#trackCSS").fadeIn();
     }
 
     else {
-      $("#undecided").show();
+      $("#undecided").fadeIn();
     }
 
   });

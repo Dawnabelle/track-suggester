@@ -8,78 +8,78 @@
     <meta charset="utf-8">
     <title>Track Suggester</title>
   </head>
-<body>
-  <!-- test commit -->
-  <div class="container">
-    <h1>Epicodus<br>Track Suggester</h1>
-    <div class="card-survey">
-      <div class="card-body">
-        <form class="needs-validation" id="formOne" nonvalidate>
-          <!-- question 1 name -->
-          <label for="name">Please enter your name:</label>
-          <input id="name" class="form-control" type="text" required>
-          <!-- question 2 campus -->
-          <label for="campus">Please choose your desired campus:</label>
-          <select class="form-control" id="campus">
-            <option value="Portland">Portland</option>
-            <option value="Seattle">Seattle</option>
-          </select>
-          <!-- question 3 PHP-->
-          <label for="php-track1">Are you interested in working on the backend of websites?</label>
-          <select class="form-control" id="php-track1">
-            <option value="true">Yes</option>
-            <option value="false">No</option>
-          </select>
-          <!-- question 4 java -->
-          <label for="java-track1">Are you interested in working for an enterprise-level company, as an Android developer, or in high-performance applications?</label>
-          <select class="form-control" id="java-track1">
-            <option value="true">Yes</option>
-            <option value="false">No</option>
-          </select>
-          <!-- question 5 CSS -->
-          <label for="css-track1">Do you think you could make this page look better?</label>
-          <select class="form-control" id="css-track1">
-            <option value="true">Yes</option>
-            <option value="false">No</option>
-          </select>
-          <!-- submit button -->
-          <button type="submit" class="btn" name="button"><em>Seems like you would enjoy...</em></button>
-        </form>
-      </div>
-    </div>
-    <!-- results -->
-    <div class="result">
-      <!-- result php -->
-      <div id="trackPHP" class="card survey-result">
-        <div class="card-body survey-card">
-          <h2>Hi <span class="name"></span>!</h2>
-          <h3>Seems like you'd enjoy the PHP Track in <span class="campus"></span>.</h3>
-          <p>PHP is by far the most popular backend language today, with 80 percent of websites utilizing it 'server-side'. The versatility of the language and the frameworks it powers make employment options numerous and diverse. If you're keen to work for a fast paced agency that builds websites for lots of clients, or maintain the security and stability of a huge complex of government websites, PHP would be a great way to go.</p>
+  <body>
+    <div class="container">
+      <h1>Epicodus<br>Track Suggester</h1>
+      <div class="card-survey">
+        <div class="card-body">
+          <form class="needs-validation" id="formOne" nonvalidate>
+            <!-- question 1 name -->
+            <label for="name">Please enter your name:</label>
+            <input id="name" class="form-control" type="text" required>
+            <!-- question 2 campus -->
+            <label for="campus">Please choose your desired campus:</label>
+            <select class="form-control" id="campus">
+              <option value="Portland">Portland</option>
+              <option value="Seattle">Seattle</option>
+            </select>
+            <!-- question 3 PHP-->
+            <label for="php-track1">Are you interested in working on the backend of websites?</label>
+            <select class="form-control" id="php-track1">
+              <option value="true">Yes</option>
+              <option value="false">No</option>
+            </select>
+            <!-- question 4 java -->
+            <label for="java-track1">Are you interested in working for an enterprise-level company, as an Android developer, or in high-performance applications?</label>
+            <select class="form-control" id="java-track1">
+              <option value="true">Yes</option>
+              <option value="false">No</option>
+            </select>
+            <!-- question 5 CSS -->
+            <label for="css-track1">Do you think you could make this page look better?</label>
+            <select class="form-control" id="css-track1">
+              <option value="true">Yes</option>
+              <option value="false">No</option>
+            </select>
+            <!-- submit button -->
+            <button type="submit" class="btn" name="button"><em>Seems like you would enjoy...</em></button>
+          </form>
         </div>
       </div>
-      <!-- result java -->
-      <div id="trackJava" class="card survey-result">
-        <div class="card-body survey-card">
-          <h2>Hi <span class="name"></span>!</h2>
+      <!-- results -->
+      <div class="result">
+        <!-- result php -->
+        <div id="trackPHP" class="card survey-result">
+          <div class="card-body survey-card">
+            <h2>Hi <span class="name"></span>!</h2>
+            <h3>Seems like you'd enjoy the PHP Track in <span class="campus"></span>.</h3>
+            <p>PHP is by far the most popular backend language today, with 80 percent of websites utilizing it 'server-side'. The versatility of the language and the frameworks it powers make employment options numerous and diverse. If you're keen to work for a fast paced agency that builds websites for lots of clients, or maintain the security and stability of a huge complex of government websites, PHP would be a great way to go.</p>
+          </div>
+        </div>
+        <!-- result java -->
+        <div id="trackJava" class="card survey-result">
+          <div class="card-body survey-card">
+            <h2>Hi <span class="name"></span>!</h2>
             <h3>Seems like you'd enjoy the Java Track in <span class="campus"></span>.</h3>
-          <p>Java, a favorite of enterprise companies, also has a broader appeal: it's one of the most popular of all programming languages, and it's used in everything from for high-performance processing to building Android user interfaces. Because Java has been very popular for a very long time and is used in so many applications, it is also a very high-demand language.</p>
+            <p>Java, a favorite of enterprise companies, also has a broader appeal: it's one of the most popular of all programming languages, and it's used in everything from for high-performance processing to building Android user interfaces. Because Java has been very popular for a very long time and is used in so many applications, it is also a very high-demand language.</p>
+          </div>
         </div>
-      </div>
         <!-- result css -->
         <div id="trackCSS" class="card survey-result">
           <div class="card-body survey-card">
-          <h2>Hi <span class="name"></span>!</h2>
-          <h3>Seems like you'd enjoy the CSS Track in <span class="campus"></span>.</h3>
+            <h2>Hi <span class="name"></span>!</h2>
+            <h3>Seems like you'd enjoy the CSS Track in <span class="campus"></span>.</h3>
             <p>This CSS course builds on the fundamentals obtained from Introduction to Programming Course. Students who learn CSS will be able to style web pages using complex, responsive layouts, while gaining exposure to the latest CSS tools, tricks, and features used every day by front-end developers and designers.</p>
           </div>
         </div>
         <!-- result false -->
         <div id="undecided" class="card survey-result">
           <div class="card-body survey-card">
-          <h2>Hi <span class="name"></span>!</h2>
+            <h2>Hi <span class="name"></span>!</h2>
             <p>Seems you are still undecided. Please only choose one <strong>YES</strong> answer to receive our reccommendation.</p>
           </div>
         </div>
       </div>
-  </div>
-</body>
+    </div>
+  </body>
+</html>
